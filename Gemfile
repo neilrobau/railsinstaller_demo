@@ -6,8 +6,9 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'mysql2', :group => :production
-##gem 'pg'
+##gem 'mysql2', '~> 0.3.7', :group => :production
+# 20120917: notice on http://railsinstaller.org/ homepage  : "Postgres is now the default database on Engine Yard. Please use the 'pg' gem instead of 'mysql2' in your Gemfile."
+gem 'pg', :group => :production
 
 
 # Gems used only for assets and not required
